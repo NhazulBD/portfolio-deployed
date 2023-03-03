@@ -1,0 +1,72 @@
+/*
+  [CSS Index - skills]
+  
+  ---
+  
+  Template Pedro Ramos || Portfolio
+  Author:  Pedro Ramos
+*/
+
+/*
+  1. Content
+  2. Responsive
+*/
+
+/******************************1.- Content******************************/
+.skills {
+  .center-container {
+    .center-block {
+      .lower-content{
+        .contents {
+          .row {
+            .skills-block {
+              margin-top: -8px;
+              .heading {
+                font-size: 15px;
+                padding: 20px 0 0 12px;
+                margin-top: 0;
+              }
+              .fade-text {
+                font-size: 50px;
+              }
+            }
+            .skills-block.correction,
+            .skills-block:nth-child(2),
+            .skills-block:nth-child(3){
+              margin-top: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/******************************2.- Responsive******************************/
+@media (min-width: 0px) { /*XS*/
+    
+}
+@media (min-width: 576px) { /*SM*/
+
+}
+@media (min-width: 768px) { /*MD*/
+ 
+}
+@media (min-width: 992px) { /*LG*/
+  .skills .center-container .center-block .lower-content {
+    .contents .row {
+      .skills-block,
+      .skills-block.correction,
+      .skills-block:nth-child(2),
+      .skills-block:nth-child(3) {
+        margin-top: -10px;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) { /*XL*/
+
+}
+@media (min-width: 1400px) { /*XXL*/
+
+}

@@ -1,0 +1,96 @@
+/*
+  [CSS Index - home]
+  
+  ---
+  
+  Template Pedro Ramos || Portfolio
+  Author:  Pedro Ramos
+*/
+
+/*
+  1. Content
+  2. Responsive
+*/
+
+.home .center-container {
+  background: rgba(0, 0, 0, .6);
+  .center-block {
+    .contents {
+      padding: 0;
+      .introduction {
+        text-shadow: 1px 1px 2px #000;
+        h1.home-page-title {
+          position: relative;
+          font-family: 'Oswald', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: -0.04em;
+          color: #fff;
+          width: 100%;
+          line-height: 100%;
+          z-index: 1;
+        }
+        h2.home-page-title {
+          font-family: 'Dosis', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          width: 100%;
+          font-size: 12px;
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 0.65em;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+/******************************2.- Responsive******************************/
+@media (min-width: 0px) { /*XS*/
+  .home .center-container .center-block .contents .introduction {
+    h1.home-page-title {
+      font-size: 3rem;
+      margin: 10px auto 5px auto;
+    }
+    h2.home-page-title {
+      margin: 0 0 0 9px;
+    }
+  }
+}
+@media (min-width: 576px) { /*SM*/
+  .home .center-container .center-block .contents .introduction {
+    h1.home-page-title {
+      font-size: 3.5rem;
+      margin: 9px auto 3px auto;
+    }
+    h2.home-page-title {
+      margin: 0 0 0 11px;
+    }
+  }
+}
+@media (min-width: 768px) { /*MD*/
+  .home .center-container .center-block .contents .introduction {
+    h1.home-page-title {
+      font-size: 4rem;
+      margin: 10px auto 8px auto;
+    }
+    h2.home-page-title {
+      margin: 0 0 0 12px;
+    }
+  }
+}
+@media (min-width: 992px) { /*LG*/
+  .home .center-container .center-block .contents .introduction {
+    h1.home-page-title {
+      font-size: 5rem;
+      margin: 8px auto 7px auto;
+    }
+  }
+}
+@media (min-width: 1200px) { /*XL*/
+}
+@media (min-width: 1400px) { /*XXL*/
+}

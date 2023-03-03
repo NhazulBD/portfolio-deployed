@@ -1,0 +1,47 @@
+/*
+  [CSS Index - skillbar]
+  
+  ---
+  
+  Template Pedro Ramos || Portfolio
+  Author:  Pedro Ramos
+*/
+
+/*
+  1. Content
+*/
+
+/******************************1.- Content******************************/
+.show-skillbar {
+  position: relative;
+  padding: 0;
+  padding-left: 0px;
+  margin: 0;
+  padding-left: 3px;
+  text-align: left;
+  .skillbar {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 21px;
+    margin: 25px 0 55px 0;
+    background: none;
+    letter-spacing: 0.05em;
+    .skillbar-bar {
+      display: inline-block;
+      width: 0px;
+      height: 3px;
+      background: #fff;
+      margin: 0 0 3px 0;
+    }
+    .skill-bar-percent {
+      position: absolute;
+      height: auto;
+      line-height: 1;
+      top: -21px;
+      right: 0;
+      color: #fff;
+      font-size: 11px;
+    }
+  }
+}

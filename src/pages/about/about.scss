@@ -1,0 +1,88 @@
+/*
+  [CSS Index - about]
+  
+  ---
+  
+  Template Pedro Ramos || Portfolio
+  Author:  Pedro Ramos
+*/
+
+/*
+  1. Content
+  2. Responsive
+*/
+
+/******************************1.- Content******************************/
+.about {
+  .center-container {
+    .center-block {
+      .lower-content{
+        .contents {
+          .row {
+            .about-block {
+              margin-top: -15px;
+              .heading {
+                padding: 22px 0 0 19px;
+                font-size: 12px;
+              }
+              .fade-text {
+                font-size: 110px;
+              }
+            }
+          }
+        }
+        p {
+          text-align: left;
+          padding: 22px 0 0 76px;
+        }
+      }
+    }
+  }
+  .fact {
+    .fade-text {
+      font-size: 80px;
+    }
+    .heading {
+      padding: 22px 0 0 19px;
+      font-size: 12px;
+    }
+  } 
+}
+
+/******************************2.- Responsive******************************/
+@media (min-width: 0px) { /*XS*/
+    
+}
+@media (min-width: 576px) { /*SM*/
+
+}
+@media (min-width: 768px) { /*MD*/
+ 
+}
+@media (min-width: 992px) { /*LG*/
+  .about .center-container .center-block .lower-content {
+    p {
+      padding: 22px 0 0 100px;
+    }
+    .contents .row .about-block {
+      margin-top: -23px;
+      .heading {
+        padding: 28px 0 0 19px;
+      }
+      .fade-text {
+        font-size: 140px;
+      }
+    }
+    .fact {
+      .heading {
+        padding: 28px 0 0 19px;
+      }
+    } 
+  }
+}
+@media (min-width: 1200px) { /*XL*/
+
+}
+@media (min-width: 1400px) { /*XXL*/
+
+}
